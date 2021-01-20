@@ -68,7 +68,7 @@ module.exports = {
             template: `{
                 path: "/${route}",
                 name: "/${metaName}",
-                component: () => import("../pages/${name}.vue"),
+                component: () => import("../views/${name}.vue"),
                 meta: {
                     title: "${metaTitle}"
                 }
